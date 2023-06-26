@@ -1,0 +1,10 @@
+/.vscode/*
+**/*cache*/*
+/Result/*
+/*venv*/*
+/results/*
+**.html
+**.xml
+**.png
+**.lock
+export_output_folder.sh
