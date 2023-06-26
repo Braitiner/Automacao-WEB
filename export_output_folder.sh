@@ -1,0 +1,1 @@
+export OUTPUT_FOLDER='25-06-23_18-51-19'
