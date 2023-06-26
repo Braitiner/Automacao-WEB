@@ -1,4 +1,4 @@
-AMBIENTES:
+AMBIENTES_WEB:
   BASE_MODELO:
     URL: http://vps40710.publiccloud.com.br:92/
     DADOS_LOGIN:

@@ -110,7 +110,6 @@ Evidenciar elemento
     [Arguments]    ${elemento}    ${msge_error}=${EMPTY}    ${texto}=${EMPTY}
         TRY  
             Wait For Condition	    return document.readyState == "complete"
-            Wait Until Element Is Not Visible    ${Barra_carregar.carregamento}
             Wait Until Element Is Visible    ${elemento}
             ${web_elemento}    Get WebElement    ${elemento} 
             Colorir elemento    ${web_elemento}
