@@ -5,3 +5,4 @@
 ...                  btn_entrar=//button[.="Entrar"]
 ...                  user_logged=//a[@class='fas fa-user']
 ...                  localizar=//input[@placeholder="Localizar"]
+...                  navio=//a[@id="NAVIO"]

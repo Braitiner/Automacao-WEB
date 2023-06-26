@@ -34,14 +34,11 @@ Acessar flowcargo
     [Arguments]    ${url}
     Go To    ${url}
 
-Acessar tela por campo pesquisa
-    [Documentation]    Keyword responsavel pela acao de clicar no campo de pesquisa
+Acessar tela por campo Localizar
+    [Documentation]    Keyword responsavel pela acao de clicar no campo de localizar
     ...                inserir texto e clicar no card da tela desejada
     [Arguments]    ${text}    ${element}    ${msge_error}=${EMPTY}
-    Wait Until Element Is Not Visible    ${home_nao_logado.load_panel}
-    Wait Until Element Is Visible    ${home_logado.campo_pesquisa}
-    Click Element        ${home_logado.campo_pesquisa}
-    Input Text    ${home_logado.campo_pesquisa}    ${text}
+    Input Text    ${pagina_inicial.localizar}    ${text}
     Wait Until Element Is Visible    ${element}
     Click Element       ${element}
 
