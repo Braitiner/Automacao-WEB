@@ -9,4 +9,4 @@ WEB - Cadastros - Incluir Navio
     [Teardown]    Close Browser
     Dado que acesso a tela Cadastro de Veiculos - Maritimo - Navio
     Quando incluo um navio e valido se foi incluido com sucesso
-    # Entao realizo a exclusao do do nacio caddstrado
+    Entao realizo a exclusao do do nacio cadastrado

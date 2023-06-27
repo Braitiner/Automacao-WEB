@@ -9,3 +9,6 @@
 ...                        seleciona_capacidade=//span[@class='ng-tns-c108-44 ng-star-inserted'][contains(.,'PORAO')]
 ...                        btn_plus=//button[@icon='pi pi-plus']
 ...                        btn_salvar=//button[contains(.,'Salvar')]
+...                        msg_salvar=//div[contains(.,'Salvo com sucesso!')]//div[@class="p-toast-detail ng-tns-c130-49"]
+...                        excluir=//td[contains(.,'TESTE')]/..//i[@class="fa fa-remove"]
+...                        btn_sim=//button[contains(.,'Sim')]
